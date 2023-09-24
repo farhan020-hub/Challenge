@@ -77,7 +77,7 @@ The Salary Calculation Program computes an individual's net salary based on thei
 3. In your main program (e.g., `index.js`), require `salary.js`.
 4. Call the `calculateNetSalary()` function with the individual's basic salary and benefits as input.
 
-Please note: You need to define NHIF rates based on income in the `salary.js' file to complete this program. These rates should be added to the `nhifRate` array according to your country's regulations.
+Please note: You need to define NHIF rates based on income in the `salary.js' file to complete this program. These rates should be added to the `nhifRate` array according to the country's regulations.
 
 Example:
 ```javascript
