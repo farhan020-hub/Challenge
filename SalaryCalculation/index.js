@@ -7,7 +7,7 @@ const rl = readline.createInterface({
 });
 
 rl.question("Enter your basic salary: ", (basicSalary) => {
-    rl.question("Enter your benefits: ", (benefits) => {
+rl.question("Enter your benefits: ", (benefits) => {
         const result = calculateNetSalary(parseFloat(basicSalary), parseFloat(benefits));
         
         console.log("Tax Amount:", result.taxAmount); // Display Tax Amount

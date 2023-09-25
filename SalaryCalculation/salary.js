@@ -6,7 +6,7 @@ function calculateNetSalary(basicSalary, benefits) {
 
 
       // NHIF rates based on the provided table in the website
-      const nhifRate = [
+    const nhifRate = [
         { minGross: 0, maxGross: 5999, deduction: 150 },
         { minGross: 6000, maxGross: 7999, deduction: 300 },
         { minGross: 8000, maxGross: 11999, deduction: 400 },

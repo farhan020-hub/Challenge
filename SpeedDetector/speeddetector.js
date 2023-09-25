@@ -1,3 +1,4 @@
+
 // This function calculates and returns the demerit points based on the speed of a car.
 function calculateDemeritPoints(speed) {
 
