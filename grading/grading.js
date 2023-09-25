@@ -6,7 +6,7 @@ function getGrade(marks) {
     }
 
     // Determines the grade based on the marks.
-    let grade;
+   
     if (marks > 79) {
         grade = 'A';
     } else if (marks >= 60) {
